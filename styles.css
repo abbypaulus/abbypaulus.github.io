@@ -15,7 +15,6 @@
 .button {
   background-color: grey;
   color: white;
-  border-radius: 5px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;    
   width: 25%;
