@@ -22,7 +22,7 @@
   text-align: center;
   align-items: left;
   display: block;
-  
+  float: left;
 }
 
 .button:hover {
@@ -38,8 +38,4 @@ p{
   color: #737373;
 }
 
-.textarea {
-  width: 50%;
-  length: 25%;
-  line-height: 5;
-}
+
