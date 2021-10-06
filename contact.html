@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-The content of the document......
-<button onclick="document.location='index.html'">Home</button>
-<button onclick="document.location='about.html'">About Me</button>
-<button onclick="document.location='certifications.html'">Certifications</button> 
-<button onclick="document.location='contact.html'">Contact</button> 
+    <script src="scripts.js"></script>
+
+    <button class='button' onclick="document.location='index.html'">Home</button><br>
+    <button class='button' onclick="document.location='about.html'">About Me</button><br>
+    <button class='button' onclick="document.location='certifications.html'">Certifications</button><br> 
+    <button class='button' onclick="document.location='contact.html'">Contact</button><br>
+
+    <form>
+        <input type="text" value="First Name"><br>
+        <input type="text" value="Last Name"><br>
+        <input type="text" value="Email"><br>
+        <h3>Why</h3>
+        <input type="radio" id='resume' value="Resume">
+        <label for="resume">Resume</label><br>
+        <textarea>Reason</textarea><br>
+        <input type="submit"><br>
+    </form>
+
 </body>
 
 </html>
