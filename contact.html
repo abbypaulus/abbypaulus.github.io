@@ -13,16 +13,20 @@
     <button class='button' onclick="document.location='certifications.html'">Certifications</button><br> 
     <button class='button' onclick="document.location='contact.html'">Contact</button><br>
 
-    <form>
-        <input type="text" value="First Name"><br>
-        <input type="text" value="Last Name"><br>
-        <input type="text" value="Email"><br>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+        <label>First</label>
+        <input type="text" onfocus="this.value=''" placeholder="First Name"><br>
+        <label>Last</label>
+        <input type="text" onfocus="this.value=''" placeholder="Last Name"><br>
+        <label>Email</label>
+        <input type="text" onfocus="this.value=''" placeholder="Email"><br>
         <h3>Why</h3>
         <input type="radio" id='resume' value="Resume">
         <label for="resume">Resume</label><br>
-        <textarea>Reason</textarea><br>
+        <textarea onfocus="this.value=''" placeholder='reason'></textarea><br>
         <input type="submit"><br>
     </form>
+
 
 </body>
 
