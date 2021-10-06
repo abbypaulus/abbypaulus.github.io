@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+    <button onclick="document.location='index.html'">Home</button>
+    <button onclick="document.location='about.html'">About Me</button>
+    <button onclick="document.location='certifications.html'">Certifications</button> 
+    <h1>About Me</h1>     
+The content of the document......
+</body>
+
+</html>   
