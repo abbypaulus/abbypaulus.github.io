@@ -91,3 +91,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+p{
+  width: 100%;
+  text-align: right;
+  margin-top: -30px;
+  padding-right: 10px;
+  color: #737373;
+}
