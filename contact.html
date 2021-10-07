@@ -3,28 +3,31 @@
 <head>
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body bg-color="light blue">
     <script src="scripts.js"></script>
-        <button class='button' onclick="document.location='index.html'">Home</button><br>
-    <button class='button' onclick="document.location='about.html'">About Me</button><br>
-    <button class='button' onclick="document.location='certifications.html'">Certifications</button><br> 
-    <button class='button' onclick="document.location='contact.html'">Contact</button><br>
+    <div class="btn-group">
+        <button class='button' onclick="document.location='index.html'">Home</button>
+        <button class='button' onclick="document.location='about.html'">About Me</button>
+        <button class='button' onclick="document.location='certifications.html'">Certifications</button>
+        <button class='button' onclick="document.location='contact.html'">Contact</button><br>
+    </div>
 
     <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
-        <label>First</label><br>
-            <input type="text" onfocus="this.value=''" placeholder="First Name"><br>
-        <label>Last</label><br>
-            <input type="text" onfocus="this.value=''" placeholder="Last Name" style="border-radius: 0%; width: 50%; height: 25%;"><br>
-        <label>Email</label><br>
-            <input type="text" onfocus="this.value=''" placeholder="Email"><br>
-        <h3>Why</h3>
-        <input type="radio" id='resume' value="Resume">
-            <label for="resume">Resume</label><br>
+            <input type="text" onfocus="this.value=''" placeholder="First Name" style="border-radius: 5px; width: 25%; height: 30%; margin-left: auto; margin-right: auto; display: block;"><br>
+            <input type="text" onfocus="this.value=''" placeholder="Last Name" style="border-radius: 5px; width: 25%; height: 30%; margin-left: auto; margin-right: auto; display: block;"><br>
+            <input type="text" onfocus="this.value=''" placeholder="Email" style="border-radius: 5px; width: 25%; height: 30%; margin-left: auto; margin-right: auto; display: block;"><br>
         <div class="container"></div>
-        <textarea onfocus="this.value=''" placeholder='Reason' rows="5" style="width: 50%; height: 25%;"></textarea><br>
-        <input type="submit"><br>
+        <textarea onfocus="this.value=''" placeholder='Reason for Contacting (ex. Resume, Questions)' rows="5" style="width: 25%; height: 25%; margin-left: auto; margin-right: auto; display: block; resize: none;"></textarea><br>
+        <input  type="submit" onclick="document.location='submissions.html'" style="width: 25%; height: 25%; cursor: pointer; margin-left: auto; margin-right: auto; display: block;"><br>
     </form>
 
 
