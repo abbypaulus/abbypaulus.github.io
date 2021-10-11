@@ -40,7 +40,7 @@ p{
 .textarea {
   width: 75%;
   height: 25%;
-  min-width: none;
+  min-width: 100px;
   min-height: none;
 }
 
