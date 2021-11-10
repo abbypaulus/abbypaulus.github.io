@@ -44,6 +44,22 @@ p{
   max-height: 100px;
 }
 
+.footer{
+  background-color: #800022;
+}
+
+.accordionC{
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -141,3 +157,4 @@ p{
   color: white;
   transform: rotateY(180deg);
 }
+
