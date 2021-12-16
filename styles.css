@@ -1,4 +1,7 @@
 /* Place your CSS styles in this file */
+body {
+  background-color: rgb(3, 13, 34);
+}
 
 h1 {
   text-align: center;
@@ -13,7 +16,7 @@ h2 {
 }
 
 .button {
-  background-color: #800022;
+  background-color: rgb(212, 27, 119);
   border: none;
   color: white;
   cursor: pointer;
