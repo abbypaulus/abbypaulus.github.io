@@ -17,10 +17,10 @@
 <body bg-color="light blue">
     <script src="scripts.js"></script>
     <div class="btn-group">
-        <button class='button' onclick="document.location='index.html'">Home</button>
-        <button class='button' onclick="document.location='about.html'">About Me</button>
-        <button class='button' onclick="document.location='certifications.html'">Certifications</button>
-        <button class='button' onclick="document.location='contact.html'">Contact</button><br>
+        <button class='header' onclick="document.location='index.html'">Home</button>
+        <button class='header' onclick="document.location='about.html'">About Me</button>
+        <button class='header' onclick="document.location='certifications.html'">Certifications</button>
+        <button class='header' onclick="document.location='contact.html'">Contact</button>
     </div>
 
     <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
@@ -29,7 +29,7 @@
             <input type="text" onfocus="this.value=''" placeholder="Email" style="border-radius: 5px; width: 25%; height: 30%; margin-left: auto; margin-right: auto; display: block;"><br>
         <div class="container"></div>
         <textarea onfocus="this.value=''" placeholder='Reason for Contacting (ex. Resume, Questions)' rows="5" style="width: 25%; height: 25%; margin-left: auto; margin-right: auto; display: block; resize: none;"></textarea><br>
-        <input  type="submit" onclick='submissions.html' style="width: 25%; height: 25%; cursor: pointer; margin-left: auto; margin-right: auto; display: block;"><br>
+        <input  type="submit" onclick="document.location='index.html'" style="width: 25%; height: 25%; cursor: pointer; margin-left: auto; margin-right: auto; display: block;"><br>
     </form>
 
 
