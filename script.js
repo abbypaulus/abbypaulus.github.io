@@ -23,6 +23,10 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Ended";
   }
+
+document.getElementById('demo');
+element.classList.add('timer');
+
 }, 1000);
