@@ -1,34 +1,38 @@
-/* Place your CSS styles in this file */
-body {
+@charset "utf-8";
+
+body{
   background-color: rgb(28, 19, 71);
+  width: 100%;
 }
 
-h1 {
+h1, h2, h5{
   text-align: center;
   font-family: 'Poppins', sans-serif;    
   font-weight: normal;
   color:white;
 }
 
-h2 {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;    
-  font-weight: normal;
-  color: white;
+header ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;	
 }
 
-h5 {
-  text-align: center;
-  color:white;
+header li{
+	float: left;
+	background: rgb(212, 27, 119);
+	width: 25%;
 }
 
-ul {
-  color: white;
-  
+header li a{	
+	display: block;
+	float: left;
+	margin: 5px 20px;
+	padding: 10px 10px;
+	text-align: center;
 }
 
-.header {
-  background-color: rgb(212, 27, 119);
+.header{
   border: none;
   color: white;
   cursor: pointer;
@@ -53,23 +57,27 @@ p{
   padding-right: 10px;
   color: #737373;
 }
-footer {
-  position: fixed;  
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: left;
-  height: 17%;
+
+@media screen and (max-width: 480px) {
+	header li a{	
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	header li{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	header li a{	
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	
 }
 
-.footer {
-  color: white;
-  fill: none;
-  border: none;
-  font-family: 'Poppins', sans-serif;
-  background-color: inherit;
-}
-
-.footer:hover {
-  background-color: lightgrey;
+@media screen and (min-width: 481px) {
+  
 }
