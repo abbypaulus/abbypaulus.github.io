@@ -39,13 +39,20 @@ ul {
   font-size: 1vw;
   padding-top: 5px;
   padding-bottom: 10px;
-
 }
 
 .header:hover {
   background-color: lightgray;
 }
 
+p{
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: -30px;
+  padding-right: 10px;
+  color: #737373;
+}
 footer {
   position: fixed;  
   left: 0;
@@ -61,33 +68,8 @@ footer {
   border: none;
   font-family: 'Poppins', sans-serif;
   background-color: inherit;
-
-;
-
 }
 
 .footer:hover {
   background-color: lightgrey;
-}
-
-p{
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin-top: -30px;
-  padding-right: 10px;
-  color: #737373;
-}
-
-.textarea {
-  min-width: 100px;
-  min-height: 100px;
-  max-width: 500px;
-  max-height: 100px;
-
-}
-
-.timer {
-  color:(212, 27, 119); 
-  font-size: 2.5 vw;
 }

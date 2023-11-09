@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="/images/{a}favicon.jpeg">
-    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/{a}favicon.jpeg">    
+    <title>Contact</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+
+    <!-- Load external CSS styles -->
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,18 +15,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body bg-color="light blue">
-    <script src="scripts.js"></script>
-    <div class="btn-group">
-        <button class='header' onclick="document.location='index.html'">Home</button>
-        <button class='header' onclick="document.location='about.html'">About Me</button>
-        <button class='header' onclick="document.location='certifications.html'">Certifications</button>
-        <button class='header' onclick="document.location='contact.html'">Contact</button>
-    </div>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
 
     <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
             <input type="text" onfocus="this.value=''" placeholder="First Name" style="border-radius: 5px; width: 25%; height: 30%; margin-left: auto; margin-right: auto; display: block;"><br>
