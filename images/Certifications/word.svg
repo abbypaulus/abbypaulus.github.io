@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="533.33301"
+   width="573.33398"
+   viewBox="-282.18765 -437.5 1168.4672 1749.9989"
+   version="1.1"
+   id="svg643"
+   sodipodi:docname="word.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs647" />
+  <sodipodi:namedview
+     id="namedview645"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.834386"
+     inkscape:cx="327.1867"
+     inkscape:cy="300.22076"
+     inkscape:window-width="1920"
+     inkscape:window-height="1130"
+     inkscape:window-x="761"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg643" />
+  <path
+     d="m 1162.4759,-437.5 h -1283.362 c -44.29,0 -80.194,35.904 -80.194,80.194 V 0 l 743.75,218.75 700,-218.75 v -357.306 c 0,-44.29 -35.904,-80.194 -80.194,-80.194 z"
+     fill="#41a5ee"
+     id="path616" />
+  <path
+     d="m 1242.6699,0 h -1443.75 v 437.5 l 743.75,131.25 700,-131.25 z"
+     fill="#2b7cd3"
+     id="path618" />
+  <path
+     d="M -201.0801,437.5 V 875 l 700,87.5 743.75,-87.5 V 437.5 Z"
+     fill="#185abd"
+     id="path620" />
+  <path
+     d="m -120.8861,1312.5 h 1283.363 c 44.29,0 80.194,-35.904 80.194,-80.194 V 875 h -1443.751 v 357.306 c 0,44.29 35.904,80.194 80.194,80.194 z"
+     fill="#103f91"
+     id="path622" />
+  <path
+     d="m 331.2259,-87.5 h -532.306 v 1093.75 h 532.306 c 44.23,-0.144 80.05,-35.964 80.194,-80.194 V -7.306 c -0.144,-44.23 -35.964,-80.05 -80.194,-80.194 z"
+     opacity="0.1"
+     id="path624" />
+  <path
+     d="m 287.4759,-43.75 h -488.556 V 1050 h 488.556 c 44.23,-0.144 80.05,-35.964 80.194,-80.194 V 36.444 c -0.144,-44.23 -35.964,-80.05 -80.194,-80.194 z"
+     opacity="0.2"
+     id="path626" />
+  <path
+     d="m 287.4759,-43.75 h -488.556 V 962.5 h 488.556 c 44.23,-0.144 80.05,-35.964 80.194,-80.194 V 36.444 c -0.144,-44.23 -35.964,-80.05 -80.194,-80.194 z"
+     opacity="0.2"
+     id="path628" />
+  <path
+     d="m 243.7259,-43.75 h -444.806 V 962.5 h 444.806 c 44.23,-0.144 80.05,-35.964 80.194,-80.194 V 36.444 c -0.144,-44.23 -35.964,-80.05 -80.194,-80.194 z"
+     opacity="0.2"
+     id="path630" />
+  <linearGradient
+     gradientTransform="matrix(1,0,0,-1,-638.5801,1314.5)"
+     y2="333.08801"
+     x2="795.29401"
+     y1="1420.912"
+     x1="167.20599"
+     gradientUnits="userSpaceOnUse"
+     id="a">
+    <stop
+       offset="0"
+       stop-color="#2368c4"
+       id="stop632" />
+    <stop
+       offset=".5"
+       stop-color="#1a5dbe"
+       id="stop634" />
+    <stop
+       offset="1"
+       stop-color="#1146ac"
+       id="stop636" />
+  </linearGradient>
+  <path
+     d="m -558.3861,-43.75 h 802.112 c 44.29,0 80.194,35.904 80.194,80.194 v 802.113 c 0,44.29 -35.904,80.194 -80.194,80.194 h -802.112 c -44.29,0 -80.194,-35.904 -80.194,-80.194 V 36.444 c 0,-44.29 35.904,-80.194 80.194,-80.194 z"
+     fill="url(#a)"
+     id="path639"
+     style="fill:url(#a)" />
+  <path
+     d="m -309.4921,571.288 c 1.575,12.381 2.625,23.144 3.106,32.375 h 1.837 c 0.7,-8.75 2.158,-19.294 4.375,-31.631 2.217,-12.338 4.215,-22.765 5.994,-31.281 l 84.35,-363.913 h 109.069 l 87.5,358.444 a 530.822,530.822 0 0 1 10.894,67.637 h 1.444 a 518.5,518.5 0 0 1 9.1,-65.625 l 69.781,-360.631 h 99.269 l -122.588,521.5 H -61.3421 L -144.4671,352.8 c -2.406,-9.931 -5.162,-22.925 -8.181,-38.894 -3.019,-15.969 -4.9,-27.65 -5.644,-35 h -1.444 c -0.962,8.487 -2.844,21.088 -5.644,37.8 -2.8,16.713 -5.046,29.079 -6.738,37.1 l -78.138,344.269 h -117.95 l -123.243,-521.238 h 101.062 l 75.994,364.656 c 1.707,7.482 3.326,17.457 4.901,29.795 z"
+     fill="#ffffff"
+     id="path641" />
+</svg>

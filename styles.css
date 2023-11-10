@@ -1,78 +1,119 @@
 @charset "utf-8";
 
-body{
-  background-color: rgb(28, 19, 71);
-  width: 100%;
+*{
+	font-family: 'Poppins', sans-serif;    
+	font-weight: normal;
 }
 
-h1, h2, h5{
-  text-align: center;
-  font-family: 'Poppins', sans-serif;    
-  font-weight: normal;
-  color:white;
-}
-header{
-  background: rgb(212, 27, 119);
-  font-family: 'Poppins', sans-serif;    
-  color: white;
-
-}
-header ul{
-	list-style-type: none;
+body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
+	display: block;
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 
-header li{
+h1, h2{
+	text-align: center;
+	color:white;
+	text-decoration: solid;
+}
+
+body{
+	background-color: rgb(28, 19, 71);
+	width: 100%;
+	color: white;
+}
+
+a{
+	color: rgb(28, 19, 71);
+}
+
+/*nav bar */
+header{
+	background: rgb(212, 27, 119);
+	margin: 0px;
+	padding: 0px;
+}
+
+header a{
 	float: left;
 	background: rgb(212, 27, 119);
 	width: 20%;
-}
-
-header li a{	
-	display: block;
-	float: left;
-	margin: 5px 20px;
-	padding: 10px 10px;
 	text-align: center;
-  text-decoration: none;  
-  cursor: pointer;
-
+	text-decoration: none;
+	padding: 10px 0px;
+	color: white;
+	margin-bottom: 50px;
 }
 
 header li:hover {
-  background-color: lightgray;
+	background-color: lightgray;
 }
 
 p{
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin-top: -30px;
-  padding-right: 10px;
-  color: #737373;
+	width: 100%;
+	margin-top: -30px;
+	color: white;
+}
+
+footer{
+	background: rgb(212, 27, 119);
+	width: 100%;
+	bottom: 0;
+	color: white;
+	display: table;
+	margin-top: 50px;
+}
+
+footer li{
+	padding: 10px 25px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer div{
+	display: table-cell;
+	width: 33%;
+	text-align: left;
+	padding: 5px 20px;
+}
+
+footer img{
+	width: 150px;
+	height: 25px;
+	object-fit: contain;
+	object-position: 0%;
+	margin: 0px;	
+	padding-top: 5px;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-track{
+	background: grey;
+}
+
+::-webkit-scrollbar-thumb{
+	background: rgb(30,155,224);
 }
 
 @media screen and (max-width: 480px) {
-	header li a{	
+	nav{	
 		display: flex;
 		flex-wrap: wrap;
 	}
 	
-	header li{
+	nav a{
 		display: flex;
 		width: 100%;
 		flex-wrap: wrap;
-	}
-
-	header li a{	
-		display: flex;
-		flex-wrap: wrap;
-		text-align: center;
-	}
-	
+		padding: 10px 10px;
+	}	
 }
 
 @media screen and (min-width: 481px) {
-  
+
 }

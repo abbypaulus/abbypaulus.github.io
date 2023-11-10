@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+h1, h2, h3, h4, h5{
+	color:white;
+    margin: 0px 25px;
+}
+
+ul.dashed li:before{
+    content: "— ";
+    text-indent: -px;
+}
