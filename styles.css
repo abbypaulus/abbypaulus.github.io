@@ -110,8 +110,16 @@ footer img{
 		display: flex;
 		width: 100%;
 		flex-wrap: wrap;
-		padding: 10px 10px;
+		padding: 10px;
+		margin-bottom: 0;	
 	}	
+
+	footer{
+		display: flex;
+	}
+	footer div{
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 481px) {
