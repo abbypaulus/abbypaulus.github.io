@@ -9,3 +9,8 @@ ul.dashed li:before{
     content: "— ";
     text-indent: -px;
 }
+
+div#logos img{
+    background: white;
+    height: 200px;
+}

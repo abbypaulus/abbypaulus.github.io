@@ -21,6 +21,8 @@ body{
 	background-color: rgb(28, 19, 71);
 	width: 100%;
 	color: white;
+	display: flex;
+	flex-flow: column;
 }
 
 a{
@@ -32,6 +34,8 @@ header{
 	background: rgb(212, 27, 119);
 	margin: 0px;
 	padding: 0px;
+	flex: 100%;
+	top: 1;
 }
 
 header a{
@@ -42,7 +46,6 @@ header a{
 	text-decoration: none;
 	padding: 10px 0px;
 	color: white;
-	margin-bottom: 50px;
 }
 
 header li:hover {
@@ -55,50 +58,142 @@ p{
 	color: white;
 }
 
+/*footer*/
 footer{
 	background: rgb(212, 27, 119);
-	width: 100%;
+	position: absolute;
 	bottom: 0;
 	color: white;
-	display: table;
+	padding: 0px;
+	margin: 0px;
 	margin-top: 50px;
 }
 
-footer li{
-	padding: 10px 25px;
+footer *{
+	box-sizing: border-box;
 }
 
-footer a{
+footer .row{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 2fr;
+	padding: 5px 25px;
+}
+
+footer .column{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+}
+
+footer h3{
+	text-align: left;
+}
+
+footer ul{
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+footer .column.links li{
+	padding: 5px 0px;
+}
+
+footer .column.links a{
+	text-decoration: none;
+	color: white;
+}
+
+footer .bottom{
+	background: rgb(30,155,224);
+	position: fixed;
+	width: 100%;
+}
+
+footer .about p{
+	line-height: 2;
+	text-align: left;
+}
+
+#footMenu{
+	border: 2px solid red;
+	float: left;
 	text-decoration: none;
 }
 
-footer div{
-	display: table-cell;
-	width: 33%;
-	text-align: left;
-	padding: 5px 20px;
+#footMenu a{
+	border: 2px solid red;
+	float: left;
+	text-decoration: none;
 }
 
 footer img{
-	width: 150px;
-	height: 25px;
+	width: 30px;
+	aspect-ratio: 1/1;
 	object-fit: contain;
 	object-position: 0%;
 	margin: 0px;	
-	padding-top: 5px;
+	padding-right: 5px;
+	vertical-align: middle;
 }
+
+/*Contact Footer*/
+.contact form{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.contact input{
+	background: lightgrey;
+	margin: 5px 0px;
+}
+
+.contact input#fn, .contact input#ln{
+	float: left;
+	width: 50%;
+	margin: 5px auto;
+}
+
+.contact input#email{
+	width: 100%;
+	float: left;
+}
+
+.contact textarea{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.contact input#submit{
+	background: #e3c502;
+	width: 100%;	
+	aspect-ratio: 15/1;
+	border-radius: 5px;
+	color: grey;
+	padding: 0px;
+	margin-top: 10px;
+}
+
 
 /*Scroll Bar*/
 ::-webkit-scrollbar{
 	width: 12px;
 }
+
 ::-webkit-scrollbar-track{
 	background: grey;
 }
 
 ::-webkit-scrollbar-thumb{
 	background: rgb(30,155,224);
-}
+} 
 
 @media screen and (max-width: 480px) {
 	nav{	
@@ -114,12 +209,15 @@ footer img{
 		margin-bottom: 0;	
 	}	
 
-	footer{
-		display: flex;
+	footer.row{
+		grid-template-columns: 1fr;
+		flex-flow: row wrap;
 	}
-	footer div{
+
+	.contact input#fn, .contact input#ln{
 		width: 100%;
 	}
+
 }
 
 @media screen and (min-width: 481px) {
