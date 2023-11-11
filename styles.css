@@ -23,6 +23,7 @@ body{
 	color: white;
 	display: flex;
 	flex-flow: column;
+	
 }
 
 a{
@@ -56,6 +57,12 @@ p{
 	width: 100%;
 	margin-top: -30px;
 	color: white;
+}
+
+
+main{
+	position: relative;
+	min-height: 100%;
 }
 
 /*footer*/
@@ -96,11 +103,10 @@ footer ul{
 	flex-flow: column;
 	padding: 0px;
 	margin: 0px;
-
 }
 
 footer .column.links li{
-	padding: 5px 0px;
+	padding: 3px 0px;
 }
 
 footer .column.links a{
@@ -168,13 +174,14 @@ footer img{
 
 .contact textarea{
 	width: 100%;
+	aspect-ratio: 10/1;
 	margin-top: 5px;
 }
 
 .contact input#submit{
 	background: #e3c502;
 	width: 100%;	
-	aspect-ratio: 15/1;
+	aspect-ratio: 17/1;
 	border-radius: 5px;
 	color: grey;
 	padding: 0px;
