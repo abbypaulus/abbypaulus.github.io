@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-input{
+.contactPage input{
     border-radius: 5px; 
     width: 25%; 
     height: 30%; 
@@ -9,7 +9,7 @@ input{
     display: block;
 }
 
-textarea{
+.contactPage textarea{
     width: 25%; 
     height: 25%;
     margin-left: auto; 

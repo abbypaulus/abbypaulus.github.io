@@ -60,9 +60,14 @@ p{
 }
 
 
-main{
+#pageContainer{
 	position: relative;
 	min-height: 100%;
+}
+
+#contentWrap{
+	padding-top: 5rem;
+	padding-bottom: 15rem;
 }
 
 /*footer*/
@@ -74,6 +79,7 @@ footer{
 	padding: 0px;
 	margin: 0px;
 	margin-top: 50px;
+	height: 15rem;
 }
 
 footer *{

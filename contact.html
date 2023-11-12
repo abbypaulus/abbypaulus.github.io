@@ -28,8 +28,10 @@
         <a href="contact.html">Contact</a>
     </nav>
     </header>
+<div id="pageContainer">
+<div id="contentWrap">
 
-    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    <form class="contactPage" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
         <label for="fn">First Name</label>
         <input id="fn" name="fn" onfocus="this.value=''" placeholder="*First Name" required><br>
         <label for="ln">Last Name</label>
@@ -39,6 +41,7 @@
         <textarea onfocus="this.value=''" placeholder='Reason for Contacting (ex. Resume, Questions)' rows="5" required></textarea><br>
         <input  type="submit"><br>
     </form>
+</div>
 
     <footer>
         <div class="row primary">
@@ -89,5 +92,6 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 </html>

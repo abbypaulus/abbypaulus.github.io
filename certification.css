@@ -4,18 +4,19 @@ div#card{
     display: flex;
     flex-flow: row wrap;
 }
-
+div.card{
+    margin: 10px auto;
+}
 div.card{
     background-color: grey;
     border: 2px solid white;
-    width: 33%;
-    height: width;
-    min-width: 250px;
+    width: 25%;
+    aspect-ratio: 1/1;
 }
 
 div.cardInner{
     position: absolute;
-    width: 33%;
+    width: 25%;
     aspect-ratio: 1/1;
     text-align: center;
     transition: transform 1s;
@@ -43,35 +44,20 @@ div.cardBack{
     transform: rotateY(180deg);
 }
 
-div img{
-    width: 200px;
+div .cardFront img{
+    width: 100%;
 }
 
-div#word{
-
+div .cardBack img{
+    height: 50%;
+    margin: 0px;
 }
 
-div#excel{
-
+div .cardBack{
+    margin: 0px;
 }
 
-div#powerpoint{
-
-}
-
-div#fusion360{
-
-}
-
-div#sutocad{
-
-}
-
-div#invento{
-
-}
-
-div#testout{
-
+div #word, #excel, #powerpoint, #fusion360,#autocad, #inventor, #testout{
+    color: white;
 }
 
