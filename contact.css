@@ -1,19 +1,22 @@
 @charset "utf-8";
 
-.contactPage input{
+.contactPage input, textarea, label{
     border-radius: 5px; 
     width: 25%; 
-    height: 30%; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin: 0px auto; 
     display: block;
 }
 
+.contactPage input{
+    border-radius: 5px; 
+    height: 30%; 
+}
+
 .contactPage textarea{
-    width: 25%; 
     height: 25%;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block; 
     resize: none;
+}
+
+form{
+    margin-bottom: 50px;
 }
