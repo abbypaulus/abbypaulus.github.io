@@ -5,15 +5,26 @@ h1, h2, h3, h4, h5{
 	color:white;
 }
 
+h1, h2, main p{
+	width: 50%;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: left;
+	line-height: 1.3;
+}
+
 h1{
+	font-size: 40pt;
+}
+
+h2{
+	margin-top: 5px;
 	font-size: 30pt;
 }
 
 main p{
-	font-size: 25pt;
-	width: 50%;
-	margin: 20px auto;
-	text-align: left;
+	margin-top: 20px;
+	font-size: 20pt;
 	line-height: 1.25;
 }
 
@@ -70,7 +81,7 @@ footer .bottom{
 	text-align: center;
 	position: absolute;
 	bottom: 0;
-	margin-top: -80rem;
+	margin-bottom: -7rem;
 }
 
 footer .bottom p{
