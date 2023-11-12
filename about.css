@@ -18,3 +18,7 @@ div#logos img{
 main{
     margin: 0px 50px;
 }
+
+#headshot img{
+    width: 20%;
+}

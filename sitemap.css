@@ -7,3 +7,7 @@ a{
 ul{
     margin-bottom: 100px
 }
+
+ul ul{
+    margin-bottom: 0px;
+}
