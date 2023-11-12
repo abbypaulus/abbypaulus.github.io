@@ -29,7 +29,8 @@ main p{
 }
 
 #logosMain{
-	margin: 0px 500px;
+	width: 50%;
+	margin: 0px auto ;
 	padding-top: 25px;
 }
 

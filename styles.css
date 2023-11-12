@@ -59,6 +59,10 @@ p{
 	color: white;
 }
 
+main{
+    margin: 0px 50px;
+}
+
 #pageContainer{
 	position: relative;
 	min-height: 100%;
