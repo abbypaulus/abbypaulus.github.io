@@ -20,3 +20,16 @@
 form{
     margin-bottom: 50px;
 }
+
+/*Media Queries Mobile, Tablet, Desktop*/
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+}
+
+@media screen and (min-width: 769px){
+	
+}

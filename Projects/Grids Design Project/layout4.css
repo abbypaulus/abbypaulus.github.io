@@ -1,0 +1,49 @@
+@charset 'utf-8';
+
+body{
+	width: 100%;
+	display: grid;
+	grid-template-areas: 'header header header'
+						 'aside main main' 
+						 'aside section1 section2' 
+						 'footer footer footer';
+	grid-gap: 10px;
+
+}
+
+header{
+	grid-area: header;
+}
+
+main{
+	grid-area: main;
+	background-color: #D4ADCF;
+	min-height: 500px;
+}
+
+aside{
+	grid-area: aside;
+	background-color: #F4B860;
+	min-height: 300px;
+}
+
+section#sec1{
+	grid-area: section1;
+	background-color: #84E296;
+	min-height: 300px;
+}
+
+section#sec2{
+	grid-area: section2;
+	background-color: #46B1C9 ;
+	min-height: 300px;
+}
+
+img{
+	float: right;
+	width: 300px;
+}
+
+footer{
+	grid-area: footer;
+}

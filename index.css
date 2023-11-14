@@ -29,9 +29,15 @@ main p{
 }
 
 #logosMain{
+	width: 100%;
+	margin: 25px auto;
+	display: inline-flex;
+}
+
+#logosMain ul{
 	width: 50%;
-	margin: 0px auto ;
-	padding-top: 25px;
+	margin: 0px auto;
+	display: inline-flex;
 }
 
 #logosMain img{
@@ -40,7 +46,6 @@ main p{
 	object-fit: contain;
 	object-position: 0%;
 	margin: 0px 15px;	
-	margin-bottom: 20.2rem;
 	filter: invert(46%) 
 			sepia(76%) 
 			saturate(750%) 
@@ -63,7 +68,6 @@ main p{
 			hue-rotate(109deg) 
 			brightness(105%) 
 			contrast(105%);
-	
 }
 
 footer{
@@ -90,3 +94,15 @@ footer .bottom p{
 	text-align: center;
 }
 
+/*Media Queries Mobile, Tablet, Desktop*/
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+}
+
+@media screen and (min-width: 769px){
+	
+}

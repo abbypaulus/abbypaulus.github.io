@@ -286,7 +286,7 @@ footer .bottom p{
 ::-webkit-scrollbar-thumb{
 	background: rgb(30,155,224);
 } 
-
+/*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
 	nav{	
 		display: flex;
@@ -312,6 +312,10 @@ footer .bottom p{
 
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) and (max-width: 768px){
 
+}
+
+@media screen and (min-width: 769px){
+	
 }

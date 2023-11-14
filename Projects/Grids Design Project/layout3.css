@@ -1,0 +1,46 @@
+@charset 'utf-8';
+
+body{
+	width: 100%;
+	display: grid;
+	grid-template-areas: 'header header header header'
+						 'aside main main main'
+						 'aside section1 section2 section3' 
+						 'aside footer footer footer';
+	grid-gap: 10px;
+	
+
+}
+
+header{
+	grid-area: header;
+}
+
+main{
+	grid-area: main;
+}
+
+aside{
+	grid-area: aside;
+}
+
+section#sec1{
+	grid-area: section1;
+}
+
+section#sec2{
+	grid-area: section2;
+}
+
+img{
+	float: right;
+	width: 300px;
+}
+
+section#sec3{
+	grid-area: section3;
+}
+
+footer{
+	grid-area: footer;
+}
