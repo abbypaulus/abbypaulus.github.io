@@ -5,6 +5,16 @@ img{
     margin: 20px auto;
 }
 
+div.logos img{
+    background: white;
+    height: 200px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
 
