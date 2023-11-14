@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-img{
-    width: 50%;
-    margin: 20px auto;
-}
 
 div.logos img{
     background: white;
@@ -13,6 +9,39 @@ div.logos img{
 a{
     color: white;
     text-decoration: none;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid red;
+}
+
+.cards .html, .photoshop, .dreamweaver, .logos{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+}
+
+.cards h2{
+    width: 100%;
+}
+
+.card{
+    width: 20%;
+    display: grid;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 1/2;
+    max-height: 500px;
+	object-fit: cover;
+	object-position: 0%;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
