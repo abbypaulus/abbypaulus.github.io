@@ -1,13 +1,40 @@
 @charset "utf-8";
 
-
-div.logos img{
-    background: white;
-    height: 200px;
+main > h1, h4{
+    width: 100%;
+    margin: 15px;
+    text-align: center;
 }
 
-a{
+main > p{
+    width: 50%;
+    margin: 0px auto;
+    line-height: 2;
+}
+
+main > ul{
+    width: 100%;
+    display: inline-flex;
+}
+
+main > ul li{
+    width: 50%;
+    text-align: center;
+    color: #1e9be0;
+}
+
+main > ul li a{
+    color: #1e9be0;
+    text-decoration: none;
+}
+
+main > ul li a:hover{
     color: white;
+    text-decoration: none;
+}
+
+
+.cards a{
     text-decoration: none;
 }
 
@@ -15,33 +42,48 @@ a{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
 }
 
-.cards .html, .photoshop, .dreamweaver, .logos{
+.cards .html, .photoshop, .dreamweaver, .logos {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid green;
 }
 
-.cards h2{
+.cards h2, .cards h3{
     width: 100%;
+    padding: 10px 15px;
 }
 
 .card{
     width: 20%;
+    min-width: 400px;
     display: grid;
     box-sizing: border-box;
-    margin: 25px;
+    background: #030d22;
+    margin: 25px auto;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 .card img{
     width: 100%;
-    aspect-ratio: 1/2;
-    max-height: 500px;
-	object-fit: cover;
-	object-position: 0%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.logos img{
+    padding: 50px;
+}
+
+.card p, a{
+    margin: 0px;
+    padding: 5px 15px;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
@@ -50,7 +92,7 @@ a{
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-
+    
 }
 
 @media screen and (min-width: 769px){

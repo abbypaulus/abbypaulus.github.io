@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 *{
-	font-family: 'Poppins', sans-serif;    
+	font-family: 'Poppins', sans-serif;   
+	box-sizing: border-box; 
 }
 
 body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
@@ -11,6 +12,7 @@ body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
 }
 
 h1, h2{
+	width: 100%;
 	text-align: center;
 	color:white;
 	text-decoration: solid;
@@ -26,7 +28,7 @@ body{
 }
 
 a{
-	color: rgb(28, 19, 71);
+	color: white;
 }
 
 /*nav bar */
@@ -52,6 +54,8 @@ header a:hover {
 	background: #1e9be0;
 }
 
+/*Nav bar dropdown #395*/
+
 p{
 	width: 100%;
 	margin-top: -30px;
@@ -72,7 +76,8 @@ main{
 	padding-bottom: 17rem;
 }
 
-/*footer 	border: 1px solid red;*/
+
+/*footer*/
 footer{
 	background: rgb(212, 27, 119);
 	position: absolute;
@@ -152,7 +157,7 @@ footer .column.links li{
 
 footer .column.links a{
 	text-decoration: none;
-	color: white;
+	color: #030d22;
 }
 
 footer .column.links a:hover{
@@ -223,7 +228,6 @@ footer .bottom{
 	color: #030d22;
 	padding: 0px 8px;
 }
-
 
 footer .bottom p{
 	width: 250px;
@@ -317,5 +321,5 @@ footer .bottom p{
 }
 
 @media screen and (min-width: 769px){
-	
+
 }
