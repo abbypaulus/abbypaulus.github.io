@@ -32,6 +32,19 @@ a{
 }
 
 /*nav bar */
+a#navicon, #logo {
+	display: none;
+}
+
+a#navicon:hover {
+	background: #d41b77;
+}
+
+a#navicon img{
+	width: 25px;
+	margin: 0px;
+}
+
 header *{
 	background: rgb(212, 27, 119);
 	margin: 0px;
@@ -50,7 +63,7 @@ header a{
 	color: white;
 }
 
-header a:hover {
+header ul a:hover {
 	background: #1e9be0;
 }
 
@@ -290,7 +303,36 @@ footer .bottom p{
 	main{
 		margin: 0px 25px;
 	}
+
+	a#logo{
+		display: block;
+	}
 	
+	a#navicon{
+		display: block;
+		width: 100%;
+	}
+
+	a#navicon img{
+		position: absolute;
+		margin: 10px;
+		left: 0;
+		top: 0;
+	}
+	
+	a#logo img{
+		background: #1d1347;
+		width: 50px;
+		top: 0;
+	}
+	nav ul{
+		display: none;
+	}
+
+	a#navicon:hover + ul, nav ul:hover{
+		display: block;
+	}
+
 	nav{	
 		display: flex;
 		flex-wrap: wrap;
@@ -319,10 +361,12 @@ footer .bottom p{
 	main{
 		margin: 0px 35px;
 	}
+
 }
 
 @media screen and (min-width: 769px){
 	main{
 		margin: 0px 50px;
 	}
+
 }
