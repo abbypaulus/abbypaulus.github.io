@@ -72,6 +72,10 @@ main > ul li a:hover{
     padding: 5px;
 }
 
+.card:hover{
+    box-shadow: 0px 0px 25px #030d22;
+}
+
 .card img{
     width: 100%;
     aspect-ratio: 2/1;
