@@ -60,6 +60,7 @@ main > ul li a:hover{
 .card{
     width: 20%;
     min-width: 400px;
+    aspect-ratio: 2/1;
     display: grid;
     box-sizing: border-box;
     background: #030d22;
@@ -70,7 +71,7 @@ main > ul li a:hover{
 
 .card img{
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/1;
     object-fit: contain;
     background-color: white;
     margin-top: 10px;
@@ -78,7 +79,7 @@ main > ul li a:hover{
 }
 
 .logos img{
-    padding: 50px;
+    padding: 10px;
 }
 
 .card p, a{

@@ -32,7 +32,7 @@ a{
 }
 
 /*nav bar */
-header{
+header *{
 	background: rgb(212, 27, 119);
 	margin: 0px;
 	padding: 0px;
@@ -58,12 +58,7 @@ header a:hover {
 
 p{
 	width: 100%;
-	margin-top: -30px;
 	color: white;
-}
-
-main{
-    margin: 0px 50px;
 }
 
 #pageContainer{
@@ -292,6 +287,10 @@ footer .bottom p{
 } 
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
+	main{
+		margin: 0px 25px;
+	}
+	
 	nav{	
 		display: flex;
 		flex-wrap: wrap;
@@ -317,9 +316,13 @@ footer .bottom p{
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-
+	main{
+		margin: 0px 35px;
+	}
 }
 
 @media screen and (min-width: 769px){
-
+	main{
+		margin: 0px 50px;
+	}
 }
