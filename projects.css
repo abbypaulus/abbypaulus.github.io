@@ -45,7 +45,7 @@ main > ul li a:hover{
     padding: 0px;
 }
 
-.cards .html, .photoshop, .dreamweaver, .logos {
+.cards .html, .photoshop, .dreamweaver, .graphics {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -85,7 +85,7 @@ main > ul li a:hover{
     border-radius: 15px;
 }
 
-.logos img{
+.graphics img{
     padding: 10px;
 }
 
