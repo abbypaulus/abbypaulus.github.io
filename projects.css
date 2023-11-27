@@ -33,6 +33,11 @@ main > ul li a:hover{
     text-decoration: none;
 }
 
+#header{
+    width: 100%;
+    text-align: center;
+}
+
 .cards a{
     text-decoration: none;
 }
@@ -85,10 +90,6 @@ main > ul li a:hover{
     border-radius: 15px;
 }
 
-.graphics img{
-    padding: 10px;
-}
-
 .card p, a{
     margin: 0px;
     padding: 5px 15px;
@@ -96,6 +97,18 @@ main > ul li a:hover{
 .card h3{
     margin: 0px;
     padding: 5px 15px;
+}
+
+.graphics img{
+    padding: 10px;
+}
+
+#engineering img , #electric_abby img, #jptenggraphic img{
+    background: black;
+}
+
+.card h3:hover, .card a:hover{
+    color: #1e9be0;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/

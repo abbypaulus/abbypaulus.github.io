@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+h1{
+    margin: 25px 0px;
+}
+
 div.cards{
     display: flex;
     flex-flow: row wrap;
@@ -66,6 +70,46 @@ div .card h3, p{
 
 div #word, #excel, #powerpoint, #fusion360,#autocad, #inventor, #testout{
     color: white;
+}
+
+#skills{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px auto;
+}
+
+.skills{
+    width: 15%;
+    aspect-ratio: 1/1;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.skills img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: #030d22;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.skills #hover{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.skills img:hover{
+    box-shadow: 0px 0px 15px #030d22;
+    filter: brightness(25%);
+}
+
+.skills #hover:hover{
+    display: block;
+    color: whitesmoke;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/

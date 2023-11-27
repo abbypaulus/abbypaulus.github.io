@@ -14,14 +14,18 @@ body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
 h1, h2{
 	width: 100%;
 	text-align: center;
-	color:white;
+	color:whitesmoke;
 	text-decoration: solid;
+}
+
+#contentWrap{
+	margin-bottom: 100px; 
 }
 
 body{
 	background-color: rgb(28, 19, 71);
 	width: 100%;
-	color: white;
+	color: whitesmoke;
 	display: flex;
 	flex-flow: column;
 	
@@ -71,7 +75,7 @@ header ul a:hover {
 
 p{
 	width: 100%;
-	color: white;
+	color: whitesmoke;
 }
 
 #pageContainer{

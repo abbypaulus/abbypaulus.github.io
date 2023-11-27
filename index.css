@@ -87,12 +87,12 @@ main p{
 }
 
 #logosMain img:hover{
-	filter: invert(95%) 
-			sepia(100%) 
-			saturate(0%) 
-			hue-rotate(109deg) 
-			brightness(105%) 
-			contrast(105%);
+	filter: invert(80%) 
+			sepia(42%) 
+			saturate(3466%) 
+			hue-rotate(9deg) 
+			brightness(101%) 
+			contrast(98%);
 }
 
 footer{

@@ -18,6 +18,31 @@ main{
     width: 20%;
 }
 
+.button {
+    width: 30%;
+    aspect-ratio: 5/1;
+    background: #e3c502;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.button h3{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+    margin: auto 0px;
+    color: #030d22;
+}
+
+.button:hover{
+    background: #ffee02;
+}
+
+.button h3:hover{
+    color: #1e9be0;
+}
+
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
 
