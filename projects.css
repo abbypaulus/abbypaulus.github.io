@@ -53,8 +53,12 @@ main > ul li a:hover{
 .cards .html, .photoshop, .dreamweaver, .graphics {
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    overflow: auto;
+    overflow-y: hidden;
 }
+
+
 
 .cards h2, .cards h3{
     width: 100%;
@@ -68,11 +72,12 @@ main > ul li a:hover{
 .card{
     width: 20%;
     min-width: 400px;
+    max-width: 400px;
     aspect-ratio: 2/1;
     display: grid;
     box-sizing: border-box;
     background: #030d22;
-    margin: 25px auto;
+    margin: 25px 15px;
     border-radius: 25px;
     padding: 5px;
 }

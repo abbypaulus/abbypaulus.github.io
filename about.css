@@ -18,7 +18,18 @@ main{
     width: 20%;
 }
 
+li img{
+	width: 30px;
+	aspect-ratio: 1/1;
+	object-fit: fit;
+	object-position: 0%;
+	margin: 0px 15px;	
+}
+
+
+
 .button {
+    display: block;
     width: 30%;
     aspect-ratio: 5/1;
     background: #e3c502;
@@ -27,20 +38,23 @@ main{
 }
 
 .button h3{
-    width: 100%;
-    height: 100%;
+    float: left;
+    width: 80%;
     padding: 0px;
     text-align: center;
     margin: auto 0px;
     color: #030d22;
+    font-size: 13pt;
+}
+
+.button img{
+    float: left;
+    width: 10%;
+    margin: auto 0px;
 }
 
 .button:hover{
-    background: #ffee02;
-}
-
-.button h3:hover{
-    color: #1e9be0;
+    background: #b09801;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
