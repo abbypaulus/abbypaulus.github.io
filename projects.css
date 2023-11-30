@@ -1,43 +1,41 @@
 @charset "utf-8";
 
-main > h1, h4{
+#header *{
     width: 100%;
+}
+
+#header h1, #header h4, #header p{
     margin: 15px;
     text-align: center;
 }
 
-main > p{
-    width: 50%;
+#header p{
     margin: 0px auto;
     line-height: 2;
 }
 
-main > ul{
+#header ul{
     width: 100%;
     display: inline-flex;
 }
 
-main > ul li{
+#header ul li{
     width: 50%;
     text-align: center;
     color: #1e9be0;
 }
 
-main > ul li a{
+#header ul li a{
     color: #1e9be0;
     text-decoration: none;
 }
 
-main > ul li a:hover{
+#header ul li a:hover{
     color: white;
     text-decoration: none;
 }
 
-#header{
-    width: 100%;
-    text-align: center;
-}
-
+/*Cards*/
 .cards a{
     text-decoration: none;
 }
@@ -58,11 +56,15 @@ main > ul li a:hover{
     overflow-y: hidden;
 }
 
-
-
 .cards .h2Link, .cards h3{
     width: 100%;
     margin: 10px;
+}
+
+.cards a h2{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .cards a h3{
@@ -71,7 +73,7 @@ main > ul li a:hover{
 
 .card{
     width: 20%;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 400px;
     aspect-ratio: 2/1;
     display: grid;
@@ -116,9 +118,36 @@ main > ul li a:hover{
     color: #1e9be0;
 }
 
+/*Card Scroll*/
+.cards ::-webkit-scrollbar{
+	width: 10px;
+}
+
+.cards ::-webkit-scrollbar-track{
+	background: grey;
+    border-radius: 25px;
+}
+
+.cards ::-webkit-scrollbar-thumb{
+	background: rgb(30,155,224);
+    border-radius: 25px;
+} 
+
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
-
+    #header ul{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    #header ul li{
+        width: 100%;
+        text-align: center;
+        color: #1e9be0;
+        padding: 0px;
+        margin: 0px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){

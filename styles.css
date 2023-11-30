@@ -96,10 +96,8 @@ p{
 }
 
 #contentWrap{
-	padding-top: 5rem;
-	padding-bottom: 17rem;
+	padding: 5rem 0px;
 }
-
 
 /*footer*/
 footer{
@@ -265,6 +263,7 @@ footer .bottom p{
 .contact input{
 	background: lightgrey;
 	margin: 5px 0px;
+	border-radius: 5px;
 }
 
 .contact input#fn, .contact input#ln{
@@ -282,16 +281,19 @@ footer .bottom p{
 	width: 100%;
 	aspect-ratio: 10/1;
 	margin-top: 5px;
+	background-color: whitesmoke;
 }
 
 .contact input#submit{
 	background: #e3c502;
 	width: 100%;	
-	aspect-ratio: 17/1;
+	aspect-ratio: 17/1.5;
 	border-radius: 5px;
-	color: grey;
+	color: #030d22;
 	padding: 0px;
 	margin: 10px 0px;
+	font-size: 14pt;
+	font-weight: bold;
 }
 
 
@@ -307,6 +309,7 @@ footer .bottom p{
 ::-webkit-scrollbar-thumb{
 	background: rgb(30,155,224);
 } 
+
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
 	main{
@@ -355,7 +358,25 @@ footer .bottom p{
 		margin-bottom: 0;	
 	}	
 
-	footer.row{
+	footer .row.primary{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		padding: 5px 25px;
+	}
+	
+	footer .row.bottom{
+		grid-template-columns: 1fr;
+	}
+	
+	footer .column{
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		padding: 5px;
+	}
+
+	footer .column{
 		grid-template-columns: 1fr;
 		flex-flow: row wrap;
 	}
