@@ -60,7 +60,7 @@ main > ul li a:hover{
 
 
 
-.cards h2, .cards h3{
+.cards .h2Link, .cards h3{
     width: 100%;
     margin: 10px;
 }
@@ -112,7 +112,7 @@ main > ul li a:hover{
     background: black;
 }
 
-.card h3:hover, .card a:hover{
+.cards .h2Link h2:hover, .card h3:hover, .card a:hover{
     color: #1e9be0;
 }
 

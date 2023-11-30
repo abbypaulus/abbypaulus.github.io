@@ -36,6 +36,18 @@ a{
 }
 
 /*nav bar */
+#homeLogo{
+	width: 5%;
+	object-fit: contain;
+	background: #030d22;
+}
+
+#homeLogo img{
+	background: #030d22;
+	height: 19px;
+	margin: auto;
+}
+
 a#navicon, #logo {
 	display: none;
 }
@@ -60,7 +72,7 @@ header *{
 header a{
 	float: left;
 	background: rgb(212, 27, 119);
-	width: 20%;
+	width: 19%;
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 0px;
@@ -361,14 +373,14 @@ footer .bottom p{
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 1024px){
 	main{
 		margin: 0px 35px;
 	}
 
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1025px){
 	main{
 		margin: 0px 50px;
 	}
