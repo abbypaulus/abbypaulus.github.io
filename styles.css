@@ -385,6 +385,29 @@ footer .bottom p{
 		width: 100%;
 	}
 
+	#footMenu{
+		display: block;
+		width: 100%;
+	}	
+	
+	#footMenu ul{
+		display: block;
+		width: 100%;
+	}
+	
+	#footMenu li{
+		display: block;
+	}
+	
+	#footMenu a{
+		color: #030d22;
+		padding: 0px 8px;
+	}
+	
+	#copyRight p{
+		width: 100%;
+		border: 10px solid red;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px){

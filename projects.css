@@ -72,9 +72,7 @@
 }
 
 .card{
-    width: 20%;
-    min-width: 300px;
-    max-width: 400px;
+    min-width: 400px;
     aspect-ratio: 2/1;
     display: grid;
     box-sizing: border-box;
@@ -147,6 +145,11 @@
         color: #1e9be0;
         padding: 0px;
         margin: 0px;
+    }
+
+    .card{
+        min-width: 300px;
+
     }
 }
 
