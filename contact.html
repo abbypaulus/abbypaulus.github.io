@@ -31,19 +31,45 @@
 </header>
 <div id="pageContainer">
 <div id="contentWrap">
+<h1>Contact</h1>
+    <div id="contact">
+        <form class="contactPage" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <label for="fn">First Name*</label>
+            <input id="fn" name="fn" onfocus="this.value=''" placeholder="First Name" required><br>
+            <label for="ln">Last Name*</label>
+            <input id="ln" name="ln" onfocus="this.value=''" placeholder="Last Name" required><br>
+            <label for="email">Email*</label>
+            <input id="email" name="email" type="email" onfocus="this.value=''" placeholder="example@email.com" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+            <textarea onfocus="this.value=''" placeholder='Your Message' rows="5" required></textarea><br>
+            <input type="submit"><br>
+        </form>
+        <div id="sides">
+            <div class="side" id="phone">
+                <img src="images/Contact/telephone.svg" alt="Phone">
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>(954)-798-7482</p>
+                </div>
+            </div>
+            <div class="side" id="email">
+                <img src="images/Contact/email.svg" alt="E-Mail">
+                <div class="text">
+                    <h3>E-Mail</h3>
+                    <p>abbypaulus@icloud.com</p>
+                </div>
+            </div>
+            <div class="side" id="resume">
+                <img src="images/Contact/resume.svg" alt="Resume">
+                <div class="text">
+                    <h3>Resume</h3>
+                    <img src="images/Contact/download.svg" alt="downlaod">
+                    <p>Download</p>
+                </div>
+            </div>           
+        </div>
+    </div>
 
-    <form class="contactPage" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-        <label for="fn">First Name*</label>
-        <input id="fn" name="fn" onfocus="this.value=''" placeholder="First Name" required><br>
-        <label for="ln">Last Name*</label>
-        <input id="ln" name="ln" onfocus="this.value=''" placeholder="Last Name" required><br>
-        <label for="email">Email*</label>
-        <input id="email" name="email" type="email" onfocus="this.value=''" placeholder="example@email.com" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
-        <textarea onfocus="this.value=''" placeholder='Your Message' rows="5" required></textarea><br>
-        <input type="submit"><br>
-    </form>
 </div>
-
 <footer>
     <div class="row primary">
         <div class="column about">
@@ -93,7 +119,7 @@
         </div>
         <p>Copyright &copy;2023 Abigail Paulus</p>
     </div>
-    </footer>
-    </div>
+</footer>
+</div>
 </body>
 </html>

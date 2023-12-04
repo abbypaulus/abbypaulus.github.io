@@ -48,7 +48,7 @@
     padding: 0px;
 }
 
-.cards .html, .photoshop, .dreamweaver, .graphics {
+ .html, .photoshop, .dreamweaver, .graphics {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -73,6 +73,7 @@
 
 .card{
     min-width: 400px;
+    max-width: 400px;
     aspect-ratio: 2/1;
     display: grid;
     box-sizing: border-box;
@@ -117,18 +118,16 @@
 }
 
 /*Card Scroll*/
-.cards ::-webkit-scrollbar{
-	width: 10px;
+.html::-webkit-scrollbar, .photoshop::-webkit-scrollbar, .dreamweaver::-webkit-scrollbar, .graphics::-webkit-scrollbar{
+	height: 5px;
 }
 
-.cards ::-webkit-scrollbar-track{
-	background: grey;
-    border-radius: 25px;
+.html::-webkit-scrollbar-track, .photoshop::-webkit-scrollbar-track, .dreamweaver::-webkit-scrollbar-track, .graphics::-webkit-scrollbar-track{
+	background: #030d22;
 }
 
-.cards ::-webkit-scrollbar-thumb{
-	background: rgb(30,155,224);
-    border-radius: 25px;
+.html::-webkit-scrollbar-thumb, .photoshop::-webkit-scrollbar-thumb, .dreamweaver::-webkit-scrollbar-thumb, .graphics::-webkit-scrollbar-thumb{
+    border-radius: 5px;
 } 
 
 /*Media Queries Mobile, Tablet, Desktop*/

@@ -21,6 +21,35 @@ form{
     margin-bottom: 50px;
 }
 
+#sides{
+    width: 25%;
+
+}
+
+.side{
+    display: block;
+    width: 100%;
+    aspect-ratio: 5/1;
+    background: #030d22;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.side img{
+    width: 100px;
+    width: 25%;
+    aspect-ratio: 1/1;
+    background: #d41b77;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.side text{
+    width: 75%;
+}
+
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
 

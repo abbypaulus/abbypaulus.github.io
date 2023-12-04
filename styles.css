@@ -23,7 +23,7 @@ h1, h2{
 }
 
 body{
-	background-color: rgb(28, 19, 71);
+	background-color: #1d1347;
 	width: 100%;
 	color: whitesmoke;
 	display: flex;
@@ -71,7 +71,7 @@ header *{
 
 header a{
 	float: left;
-	background: rgb(212, 27, 119);
+	background: #d41b77;
 	width: 19%;
 	text-align: center;
 	text-decoration: none;
