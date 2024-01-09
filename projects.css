@@ -48,7 +48,7 @@
     padding: 0px;
 }
 
- .html, .photoshop, .dreamweaver, .graphics {
+.cardGroup {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -105,7 +105,7 @@
     padding: 5px 15px;
 }
 
-.graphics img{
+#graphics img{
     padding: 10px;
 }
 
@@ -118,15 +118,15 @@
 }
 
 /*Card Scroll*/
-.html::-webkit-scrollbar, .photoshop::-webkit-scrollbar, .dreamweaver::-webkit-scrollbar, .graphics::-webkit-scrollbar{
+.cardGroup::-webkit-scrollbar{
 	height: 5px;
 }
 
-.html::-webkit-scrollbar-track, .photoshop::-webkit-scrollbar-track, .dreamweaver::-webkit-scrollbar-track, .graphics::-webkit-scrollbar-track{
+.cardGroup::-webkit-scrollbar-track{
 	background: #030d22;
 }
 
-.html::-webkit-scrollbar-thumb, .photoshop::-webkit-scrollbar-thumb, .dreamweaver::-webkit-scrollbar-thumb, .graphics::-webkit-scrollbar-thumb{
+.cardGroup::-webkit-scrollbar-thumb{
     border-radius: 5px;
 } 
 

@@ -1,36 +1,31 @@
 @charset "utf-8";
 
-.contactPage input, textarea, label{
-    border-radius: 5px; 
-    width: 25%; 
-    margin: 0px auto; 
-    display: block;
+h1{
+    padding-bottom: 3rem;
 }
 
-.contactPage input{
-    border-radius: 5px; 
-    height: 30%; 
-}
-
-.contactPage textarea{
-    height: 25%;
-    resize: none;
-}
-
-form{
-    margin-bottom: 50px;
+#contact{
+    background: #030d22;
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px#030d22;
+    padding: 1rem;
+    display: flex;
 }
 
 #sides{
     width: 25%;
-
+    margin: 15px auto;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .side{
-    display: block;
+    display: flex;
     width: 100%;
     aspect-ratio: 5/1;
-    background: #030d22;
+    background: #d41b77;
     margin: 15px;
     padding: 5px;
     border-radius: 5px;
@@ -40,14 +35,50 @@ form{
     width: 100px;
     width: 25%;
     aspect-ratio: 1/1;
-    background: #d41b77;
+    background: #1e9be0;
     margin: 15px;
-    padding: 25px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .side text{
     width: 75%;
+    margin: auto ;
+}
+
+form{
+    width: 75%;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.contactPage input, textarea, label{
+    border-radius: 5px; 
+    width: 100%; 
+    margin: 0px auto; 
+    display: block;
+}
+
+.contactPage input{
+    border-radius: 5px; 
+    height: 30px; 
+}
+
+.contactPage textarea{
+    height: 25%;
+    resize: none;
+}
+
+#download{
+    display: flex;
+    width: 75%;
+    background: #e3c502;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#download p{
+    text-decoration: none;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
