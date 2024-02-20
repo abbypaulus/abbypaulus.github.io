@@ -1,8 +1,6 @@
-var borderBlink = 0;
-
-window.onload = blinkingFunc(){
-    if(borderBlink === 0){
-        
-    }
-
-};
+let typeEffect = [];
+for(let i = 0; i < 15; i++){
+    typeEffect.push('a');
+    
+    //document.getElementById('typeEffect').innerHTML = abigail_paulus;
+}

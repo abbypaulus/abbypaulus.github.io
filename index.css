@@ -7,7 +7,7 @@
 		 url(Fonts/otf/static/CascadiaCode-Regular.otf) format('opentype');
 }
 
-#typeEffect{
+/*#typeEffect{
 	font-family: Cascadia;
 	color: #d71e94;
 	overflow: hidden;
@@ -15,7 +15,7 @@
 	border-right: 2.5px solid #e3c502;
 	animation: typing 3s,
 			   blink 1s infinite;
-}
+}*/
 
 @keyframes typing{
 	from	{width: 0%;}
