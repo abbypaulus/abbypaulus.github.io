@@ -105,8 +105,12 @@
     padding: 5px 15px;
 }
 
-#graphics img{
+#graphics img, #pcbf img{
     padding: 10px;
+}
+
+#pcbf img{
+    background: #1d1347;
 }
 
 #engineering img , #electric_abby img, #jptenggraphic img{
