@@ -54,6 +54,7 @@
     flex-flow: row nowrap;
     overflow: auto;
     overflow-y: hidden;
+    margin: 50px 0px;
 }
 
 .cards .h2Link, .cards h3{
@@ -65,6 +66,7 @@
     text-align: center;
     padding: 0px;
     margin: 0px;
+    width: 100%;
 }
 
 .cards a h3{

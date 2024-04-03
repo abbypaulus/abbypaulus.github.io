@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-h1, h2, h4, h5{
-	color:white;
-    margin: 0px 25px;
-}
-
 ul.dashed li:before{
     content: "— ";
     text-indent: -px;
@@ -14,48 +9,390 @@ main{
     margin: 0px 50px;
 }
 
-#headshot img{
-    width: 20%;
+#main{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-li img{
-	width: 30px;
-	aspect-ratio: 1/1;
-	object-fit: fit;
-	object-position: 0%;
-	margin: 0px 15px;	
+#allInfo{
+    width: 50%;
+    margin-left: 50px;
+}
+
+#about{
+    width: 100%;
+    margin: 0px auto;
+    left: -50px;
+}
+
+#about h1{
+    font-size: 60pt;
+    text-align: left;
+}
+
+#about p{
+    margin: 10px 0px;
+}
+
+.infoMain h2{
+    text-align: left;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 25pt;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 0px;
+    margin-left: 50px;
+}
+
+.info #text{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.info .date{
+    width: 15%;
+}   
+
+.info h3{
+    text-align: left;
+    margin: auto;
+    font-size: 16pt;
+}
+
+.info p{
+    font-size: 12pt;
+    opacity: 0.5;
+}
+
+.titleImg{
+    background: whitesmoke;
+    width: 60px;
+    aspect-ratio: 1/1;
+    padding: 2.5px;
+    object-fit: contain;
+    border-radius: 2.5px;
+    margin-right: 15px;
+    
+}
+
+.date p:first-child{
+    font-size: 10pt;
+    opacity: 0.5;
+}
+
+.date p:last-child{
+    font-weight: bold;
+    font-size: 13pt;
+    opacity: 1;
 }
 
 
+.arrow{
+    font-size: 45pt;
+    width: 5%;
+    height: 50px;
+}
 
-.button {
-    display: block;
-    width: 30%;
-    aspect-ratio: 5/1;
-    background: #e3c502;
-    border-radius: 10px;
+.arrow:hover{
+    color: #1e9be0;
+    cursor: pointer;
+}
+
+#headshot{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
     margin: auto;
 }
 
-.button h3{
-    float: left;
-    width: 80%;
-    padding: 0px;
+#headshot img{
+    width: 90%;
+    margin: auto;
+}
+
+#pink{
+    width: 100%;
+    height: 100px;
+    background: #d41b77;
+    display: flex;
+    margin: auto;
+    padding: 15px 0px;
+    border-radius: 10px;
+    position: relative;
+    top: -50px;
+}
+
+.miniText{
+    padding: 0px 25px;
+    width: 33%;
+    margin: auto;
+}
+
+.miniText:first-child{
+    border: 3px solid #d41b77;
+    border-right-color:  #e3c502;
+}
+
+.miniText:last-child{
+    border: 3px solid #d41b77;
+    border-left-color:  #e3c502;
+}
+
+.miniText h3{
+    font-size: 14pt;
+}
+
+.miniText p{
+    font-size: 11pt;
+    color: #e3c502;
+    opacity: 0.75;
+}
+
+h2{
+    width: 100%;
     text-align: center;
-    margin: auto 0px;
-    color: #030d22;
-    font-size: 13pt;
 }
 
-.button img{
-    float: left;
-    width: 10%;
-    margin: auto 0px;
+#acomp{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    margin: 50px 0px;
 }
 
-.button:hover{
-    background: #b09801;
+.acomp{
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    position: relative;
 }
+
+.acomp:hover{
+    box-shadow: 0px 0px 25px #030d22;
+}
+
+.acomp img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+#acomp #csu img, #acomp #ultimate img{
+    object-fit: contain;
+    padding: 15px;
+}
+
+
+/* #booth img:first-child:hover{
+    visibility: hidden;
+}
+
+#booth img:last-child:hover{
+    visibility: visible;
+} */
+
+
+.text{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    width: 90%;
+}
+
+.text h3{
+    font-size: 25pt;
+}
+
+.text p{
+    font-size: 11pt;
+    margin-bottom: 15px;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        hsla(210, 100%, 1.96%, 0) 0%,
+        hsla(210, 100%, 1.96%, 0.013) 8.1%,
+        hsla(210, 100%, 1.96%, 0.049) 15.5%,
+        hsla(210, 100%, 1.96%, 0.104) 22.5%,
+        hsla(210, 100%, 1.96%, 0.175) 29%,
+        hsla(210, 100%, 1.96%, 0.259) 35.3%,
+        hsla(210, 100%, 1.96%, 0.352) 41.2%,
+        hsla(210, 100%, 1.96%, 0.45) 47.1%,
+        hsla(210, 100%, 1.96%, 0.55) 52.9%,
+        hsla(210, 100%, 1.96%, 0.648) 58.8%,
+        hsla(210, 100%, 1.96%, 0.741) 64.7%,
+        hsla(210, 100%, 1.96%, 0.825) 71%,
+        hsla(210, 100%, 1.96%, 0.896) 77.5%,
+        hsla(210, 100%, 1.96%, 0.951) 84.5%,
+        hsla(210, 100%, 1.96%, 0.987) 91.9%,
+        hsl(210, 100%, 1.96%) 100%
+    );
+    border-radius: 15px;
+    opacity: 0.75;
+    position: absolute;
+}
+
+
+#extra{
+    width: 80%;
+    height: 750px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas:'box1 box1 box1 box1 box1 box2 box2 box3 box3'
+                        'box4 box4 box5 box5 box5 box2 box2 box3 box3'
+                        'box4 box4 box5 box5 box5 box6 box6 box3 box3'
+                        'box7 box7 box5 box5 box5 box8 box8 box8 box9'
+                        'box7 box7 box5 box5 box5 box8 box8 box8 box9'
+                        'box7 box7 box10 box10 box11 box12 box12 box12 box12';
+    grid-gap: 15px;
+}
+
+.box{
+    background: #030d22;
+    border-radius: 10px;
+}
+.box:hover{
+    box-shadow: 0px 0px 25px #030d22;
+    filter: brightness(25%);
+}
+
+
+.box img{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+#extra div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+#extra h4{
+    visibility: hidden;
+}
+
+#engineering{
+    grid-area: box5;
+    background: black;
+    background-image: url(../image/about/group\eng.png);
+}
+
+#wot{
+    grid-area: box3;
+    background: #ecece5;
+    background-image: url('../images\About\WOT.png');
+    /* background-image: url('images/About/wot\ pic.JPG') ; */
+}
+
+#deca{
+    grid-area: box11;
+    background: white;
+    background-image: url('../images\About\DECA Logo Stack Blue.png');
+}
+
+#officers{
+    grid-area: box7;
+    background: rgb(83, 0, 118);
+    background-image: url(../image/about/);
+}
+
+#guitar{
+    grid-area: box4;
+    background: rgb(199, 13, 13);
+    background-image: url('../images\About\guitar.png');
+}
+
+#bsu{
+    grid-area: box12;
+    background: #e5c64c;
+    background-image: url(../image/about/);
+}
+
+#csys{
+    grid-area: box2;
+    background: #2b4191;
+    background-image: url(../image/about/);
+}
+
+#ace{
+    grid-area: box8;
+    background: #67b2c8;
+    background-image: url(../image/about/);
+}
+
+#german{
+    grid-area: box1;
+    background: rgb(165, 158, 158);
+    background-image: url(../image/about/);
+}
+
+#illuminating{
+    grid-area: box10;
+    background: black;
+    background-image: url(../image/about/);
+}
+
+#csu{
+    grid-area: box9;
+    background: #d7b864;
+    background-image: url(../image/about/);
+}
+
+#ultimate{
+    grid-area: box6;
+    background: #2b4191;
+    background-image: url(../image/about/);
+}
+
+#interest{
+    width: 100%;
+}
+
+.interest{
+    width: 500px;
+    aspect-ratio: 1/1;
+    background:  linear-gradient(
+        to bottom,
+        hsl(0, 0%, 100%) 0%,
+        hsl(339.45, 0%, 98.55%) 8.1%,
+        hsl(339.45, 0%, 94.5%) 15.5%,
+        hsl(339.45, 0%, 88.31%) 22.5%,
+        hsl(339.45, 0%, 80.45%) 29%,
+        hsl(339.45, 0%, 71.4%) 35.3%,
+        hsl(339.45, 0%, 61.63%) 41.2%,
+        hsl(339.45, 0%, 51.61%) 47.1%,
+        hsl(339.45, 0%, 41.75%) 52.9%,
+        hsl(339.45, 0%, 32.45%) 58.8%,
+        hsl(339.45, 0%, 24.07%) 64.7%,
+        hsl(339.45, 0%, 16.87%) 71%,
+        hsl(339.45, 0%, 11.08%) 77.5%,
+        hsl(339.45, 0%, 6.46%) 84.5%,
+        hsl(339.45, 0%, 1.82%) 91.9%,
+        hsl(0, 0%, 0%) 100%
+    );
+}
+
+.interest img{
+    width: 100%;
+}
+
 
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {

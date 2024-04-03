@@ -284,7 +284,7 @@ footer .bottom p{
 	background-color: whitesmoke;
 }
 
-.contact input#submit{
+#submit{
 	background: #e3c502;
 	width: 100%;	
 	aspect-ratio: 17/1.5;
