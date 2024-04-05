@@ -77,9 +77,9 @@
         <div class="column contact">
             <h3>Contact Me</h3>
             <form>
-                <input id="fn" placeholder="*First Name" required><br>
-                <input id="ln" placeholder="*Last Name" required><br>
-                <input id="email" type="email"  placeholder="*example@email.com" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" required><br>
+                <input id="fn" placeholder="*First Name" autocomplete="given-name" required><br>
+                <input id="ln" placeholder="*Last Name" autocomplete="family-name" required><br>
+                <input id="email" type="email"  placeholder="*example@email.com" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" autocomplete="email" required><br>
                 <textarea id="textBox" placeholder='Your Message' rows="5" required></textarea><br>
                 <input id="submit" type="submit"><br>
             </form>
