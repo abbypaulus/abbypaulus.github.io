@@ -135,12 +135,12 @@ main{
 }
 
 .miniText:first-child{
-    border: 3px solid #d41b77;
+    border: 3px solid #d41b7700 ;
     border-right-color:  #e3c502;
 }
 
 .miniText:last-child{
-    border: 3px solid #d41b77;
+    border: 3px solid #d41b7700 ;
     border-left-color:  #e3c502;
 }
 
@@ -246,7 +246,6 @@ h2{
     position: absolute;
 }
 
-
 #extra{
     width: 80%;
     height: 750px;
@@ -269,7 +268,6 @@ h2{
     box-shadow: 0px 0px 25px #030d22;
     filter: brightness(25%);
 }
-
 
 .box img{
     display: block;
@@ -396,7 +394,141 @@ h2{
 
 /*Media Queries Mobile, Tablet, Desktop*/
 @media screen and (max-width: 480px) {
+    main{
+        margin: 0px;
+    }
+    
+    #allInfo{
+        width: 100%;
+        margin: 25px;
+    }
+    
+    #about{
+        margin: 0px auto;
+    }
+    
+    #about h1{
+        font-size: 30pt;
+        text-align: center;
+    }
+    
+    #about p{
+        margin: 10px 0px;
+        font-size: 10pt;
+    }
+    
+    .infoMain h2{
+        width: 100%;
+        margin: 10px 0px;
+        font-size: 15pt;
+    }
+    
+    .info{
+        margin: 5px 0px;
+        margin-left: 25px;
+    }
+    
+    .info #text{
+        padding-left: 7px;
+    }
+    
+    .info h3{
+        font-size: 8pt;
+    }
+    
+    .info p{
+        font-size: 6pt;
+    }
+    
+    .titleImg{
+        width: 30px;
+        height: 30px;
+        aspect-ratio: 1/1;
+    }
+    
+    .date p:first-child{
+        font-size: 5pt;
+    }
+    
+    .date p:last-child{
+        font-size: 7pt;
+    }
+    
+    
+    .arrow{
+        font-size: 20pt;
+    }
 
+    
+    #headshot{
+        width: 100%;
+        margin: 15px;
+    }
+    
+    #pink{
+        height: 60px;
+        padding: 5px 0px;
+        top: 0px;
+    }
+
+    .miniText:first-child{
+        border: 2px solid #d41b7700 ;
+        border-right-color:  #e3c502;
+    }
+    
+    .miniText:last-child{
+        border: 2px solid #d41b7700 ;
+        border-left-color:  #e3c502;
+    }
+    
+    .miniText h3{
+        font-size: 6pt;
+    }
+    
+    .miniText p{
+        font-size: 5pt;
+    }
+    
+    #acomp{
+        gap: 5px;
+        margin: 50px 0px;
+    }
+    
+    .acomp{
+        width: 150px;
+    }
+    
+    .text h3{
+        font-size: 15pt;
+    }
+    
+    .text p{
+        font-size: 4.75pt;
+        margin-bottom: 15px;
+    }
+
+    #extra{
+        width: calc(100% - 10px);
+        height: 750px;
+        grid-gap: 5px;
+        margin: 5px;
+        grid-template-areas:'box7 box7 box7 box4 box4 box1'
+                            'box7 box7 box7 box4 box4 box1'
+                            'box10 box5 box5 box5 box5 box1'
+                            'box10 box5 box5 box5 box5 box1'
+                            'box11 box5 box5 box5 box5 box1'
+                            'box12 box8 box8 box6 box2 box2'
+                            'box12 box8 box8 box6 box2 box2'
+                            'box12 box8 box8 box3 box3 box3'
+                            'box12 box9 box9 box3 box3 box3';
+                            
+    }
+
+    .box img{
+        width: 100%;
+        max-width: 200px;
+    }
+    
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){

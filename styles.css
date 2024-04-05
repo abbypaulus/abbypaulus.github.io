@@ -28,7 +28,6 @@ body{
 	color: whitesmoke;
 	display: flex;
 	flex-flow: column;
-	
 }
 
 a{
@@ -337,6 +336,7 @@ footer .bottom p{
 		width: 50px;
 		top: 0;
 	}
+
 	nav ul{
 		display: none;
 	}
@@ -357,6 +357,10 @@ footer .bottom p{
 		padding: 10px;
 		margin-bottom: 0;	
 	}	
+
+	footer{
+		height: 50em;
+	}
 
 	footer .row.primary{
 		display: grid;
@@ -382,6 +386,11 @@ footer .bottom p{
 	}
 
 	.contact input#fn, .contact input#ln{
+		display: flex;
+		width: 50%;
+	}
+
+	.column.links h3{
 		width: 100%;
 	}
 
@@ -402,6 +411,11 @@ footer .bottom p{
 	#footMenu a{
 		color: #030d22;
 		padding: 0px 8px;
+		font-size: 10pt;
+	}
+
+	.row.bottom {
+		font-size: 10pt;
 	}
 	
 	#copyRight p{
