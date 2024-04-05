@@ -2,13 +2,25 @@
 
 h1{
     margin: 25px 0px;
+    font-size: 30pt;
 }
 
-div.cards{
+.cards{
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
+    gap: 15px;
 }
-div.card{
+
+/* #microsoft, #autodesk, #adobe{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+} */
+
+/* div.card{
     background: #1d1347;
     width: 30%;
     aspect-ratio: 1/1;
@@ -23,12 +35,12 @@ div.cardInner{
     text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
-}
+} */
 
-div.card:hover div.cardInner{
+/* div.card:hover div.cardInner{
     transform: rotateY(180deg);
-}
-
+} */
+/* 
 div.cardFront, div.cardBack{
     position: absolute;
     width: 100%;
@@ -70,7 +82,7 @@ div .card h3, p{
 
 div #word, #excel, #powerpoint, #fusion360,#autocad, #inventor, #testout, #ps{
     color: white;
-}
+} */
 
 #skills{
     width: 60%;
