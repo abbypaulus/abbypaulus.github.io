@@ -385,6 +385,10 @@ footer .bottom p{
 		flex-flow: row wrap;
 	}
 
+	footer form{
+		width: 100%;
+	}
+
 	.contact input#fn, .contact input#ln{
 		display: flex;
 		width: 50%;
