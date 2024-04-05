@@ -28,6 +28,7 @@ body{
 	color: whitesmoke;
 	display: flex;
 	flex-flow: column;
+	
 }
 
 a{
@@ -61,7 +62,6 @@ a#navicon img{
 }
 
 header *{
-	background: rgb(212, 27, 119);
 	margin: 0px;
 	padding: 0px;
 	flex: 100%;
@@ -106,7 +106,6 @@ footer{
 	color: white;
 	padding: 0px;
 	margin: 0px;
-	height: 17rem;
 }
 
 footer .row.primary{
@@ -336,7 +335,6 @@ footer .bottom p{
 		width: 50px;
 		top: 0;
 	}
-
 	nav ul{
 		display: none;
 	}
@@ -358,8 +356,8 @@ footer .bottom p{
 		margin-bottom: 0;	
 	}	
 
-	footer{
-		height: 50em;
+	footer h3{
+		width: 100%;
 	}
 
 	footer .row.primary{
@@ -390,12 +388,7 @@ footer .bottom p{
 	}
 
 	.contact input#fn, .contact input#ln{
-		display: flex;
 		width: 50%;
-	}
-
-	.column.links h3{
-		width: 100%;
 	}
 
 	#footMenu{
@@ -415,11 +408,6 @@ footer .bottom p{
 	#footMenu a{
 		color: #030d22;
 		padding: 0px 8px;
-		font-size: 10pt;
-	}
-
-	.row.bottom {
-		font-size: 10pt;
 	}
 	
 	#copyRight p{
