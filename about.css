@@ -467,7 +467,7 @@ h2{
     
     #pink{
         height: 60px;
-        padding: 5px 0px;
+        padding: 0px 0px;
         top: 0px;
     }
 
@@ -481,12 +481,16 @@ h2{
         border-left-color:  #e3c502;
     }
     
+    .miniText{
+        padding: 5px;
+    }
+
     .miniText h3{
-        font-size: 6pt;
+        font-size: 9pt;
     }
     
     .miniText p{
-        font-size: 5pt;
+        font-size: 7pt;
     }
     
     #acomp{
@@ -495,7 +499,7 @@ h2{
     }
     
     .acomp{
-        width: 150px;
+        width: calc(50% - 25px);
     }
     
     .text h3{
