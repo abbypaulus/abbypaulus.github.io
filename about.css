@@ -393,7 +393,7 @@ h2{
 
 
 /*Media Queries Mobile, Tablet, Desktop*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     main{
         margin: 0px;
     }

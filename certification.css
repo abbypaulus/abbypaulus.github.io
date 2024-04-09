@@ -125,7 +125,7 @@ div #word, #excel, #powerpoint, #fusion360,#autocad, #inventor, #testout, #ps{
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #skills{
         width: 100%;
     }

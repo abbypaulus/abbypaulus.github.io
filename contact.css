@@ -95,7 +95,7 @@ form{
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #contact{
         width: 90%;
         flex-flow: column nowrap;

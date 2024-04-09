@@ -181,6 +181,11 @@ footer .bottom p{
 		font-size: 10pt;
 		width: 50%;
 	}
+
+	#main{
+		width: 100%;
+	}
+	
 }
 
 @media screen and (min-width: 769px){
