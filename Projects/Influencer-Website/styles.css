@@ -1,0 +1,533 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roobert";
+    background: #0e0e10;
+    color: #efeffe;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    background: #0e0e10;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+}
+
+header > a{
+    width: 50px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    position: absolute;
+    left: 0;
+}
+
+header img{
+    position: relative;
+    max-height: 35px;
+    width: 100%;
+    margin: auto;
+}
+
+header nav{
+    display: flex;
+    height: 50px;
+    width: calc(100% - 50px);
+    text-align: right;
+    justify-content: flex-end;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+header nav a{
+    color: #efeffe;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 20pt;
+    font-weight: 600;
+    margin: auto 0px;
+    display: inline-flex;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    filter: invert(55%) 
+            sepia(79%) 
+            saturate(7499%) 
+            hue-rotate(251deg) 
+            brightness(102%) 
+            contrast(101%);
+}
+
+aside{
+    background: #1f1f23;
+    height: 100vh;
+    padding-top: 50px;
+    width: 50px;
+    position: fixed;
+}
+
+aside #anchor img{
+    width: 45%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+aside #anchor a:hover{
+    filter: invert(55%) 
+            sepia(79%) 
+            saturate(7499%) 
+            hue-rotate(251deg) 
+            brightness(102%) 
+            contrast(101%);
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 50px 0px;
+    padding-left: 100px;
+}
+
+section h2.subtitle{
+    width: 100%;
+    padding: 25px 0px;
+}
+
+#home{
+    background: #9146ff;
+    background-size: cover;
+    background-image: url(images/repeat.svg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+#home #repeat{
+    position: absolute;
+    margin: none;
+    padding: none;
+}
+
+#home #name{
+    width: 55%;
+    margin: auto;
+    transform: translate(0,-58%);
+}
+
+#name h1, #name h2{
+    width: 100%;
+    text-align: center;
+}
+
+#name h1{
+    font-size: 80pt;
+    line-height: 0.5;
+}
+
+#name h2{
+    font-size: 40pt;
+    -webkit-text-stroke: 1.5px #efeffe;
+    color: #9146ff;
+}
+
+#home #pic{
+    width: 45%;
+    max-width: 750px;
+    aspect-ratio: 16/9;
+}
+
+#pic img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 50px;
+    margin-left: 0px;
+}
+
+#clips{
+    display: flex;
+    flex-flow: row;
+}
+
+#clips{
+    gap: 15px;
+    overflow: hidden;
+}
+
+.vid img{
+    width: 350px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.vid h3{
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+#clipTitle{
+    background: #9146ff;
+    border-radius: 10px;
+    width: 150px;
+    aspect-ratio: 1/1.75;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#clipTitle h2{
+    width: 70%;
+    margin: auto;
+}
+
+.vid #bg{
+    background-color: #9146ff;
+    width: 350px;
+    aspect-ratio: 16/9;
+}
+
+.vid:hover img{
+    transform: translate(10px, -10px);
+}
+
+#category{
+    gap: 0px 15px;
+}
+
+.poster #bg{
+    background-color: #9146ff;
+    width: 175px;
+    aspect-ratio: 3/4;  
+}
+
+.poster img{
+    width: 100%;
+}
+
+.poster h4{
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.poster:hover img{
+    transform: translate(10px, -10px);
+}
+
+#friends{
+    margin-bottom: 100px;
+}
+
+.friend{
+    width: 175px;
+}
+
+.friend img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2.5px solid #535256;
+    margin: auto;
+    display: flex;
+}
+
+.friend h4, .friend p{
+    text-align: center;
+}
+
+.friend h4{
+    padding-top: 12px;
+}
+
+footer{
+    background: #401c88;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Background */
+#backstory{
+    background: #9146ff;
+    background-size: cover;
+    background-image: url(images/repeat.svg);
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+#backstory #text{
+    width: 66%;
+    height: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+#backstory #text p{
+    text-shadow: 0px 0px 2.5px #efeffe;
+}
+
+
+#backstory h1{
+    width: 100%;
+    font-size: 80pt;
+    text-align: center;
+}
+
+#backstory p{
+    width: 69%;
+    color: #0e0e10;
+    line-height: 17pt;
+    font-weight: 500;
+    font-size: 18pt;
+    margin: auto;
+}
+
+#backstory img{
+    width: 33%;
+    height: 100%;
+    transform: translateY(50px);
+}
+
+#points{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px 0px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.point{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.point img{
+    width: 50%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.point .text{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.point h2{
+    font-size: 35pt;
+    font-weight: 500;
+}
+
+.point h3{
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.point p{
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+/* Claim to Fame */
+#claim-to-fame{
+    background: #9146ff;
+    background-size: cover;
+    background-image: url(images/repeat.svg);
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: -1;
+    padding: 100px 150px;
+    padding-right: none;
+}
+
+#claim-to-fame #vid{
+    background: #1f1f23;
+    width: 50%;    
+    min-width: 500px;
+    max-width: 750px;
+    aspect-ratio: 16/9;
+    display: flex;
+    position: relative;
+}
+
+#claim-to-fame #vid img{
+    background: #1f1f23;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+#claim-to-fame #vid #title{
+    background: #1f1f23be;
+    width: 100%;
+    position: absolute;
+    height: 75px;
+}
+
+#desc{
+    background: #1f1f23;
+    margin: 0px 10px;
+    padding: 25px;
+    width: calc(20% - 15px);
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+}
+
+#desc h2{
+    width: 100%;
+    font-size: 30pt;
+    height: 50px;
+}
+
+#desc #date{
+    width: 100%;
+}
+
+#desc p{
+    width: 100%;
+    font-size: 15pt;
+    font-weight: 300;
+    padding: none;
+}
+
+#vid #title {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#claim-to-fame #title img{
+    width: 25%;
+    max-width: 65px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2.5px solid #535256;
+    margin: auto;
+    display: flex;
+}
+
+#claim-to-fame #title #text{
+    width: 75%;
+    margin: auto;
+}
+#claim-to-fame #vid #text p{
+    font-weight: 300;
+}
+
+#ctf{
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#ctf h1{
+    width: 100%;
+    text-align: center;
+}
+
+#ctf #claim, #ctf #fame{
+    font-size: 80pt;
+}
+
+#ctf #to{
+    font-size: 60pt;
+}
+
+#notable{
+    margin-right: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#notable .moment{
+    width: calc(25% - 15px);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.clip img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#notable .moment .clip{
+    background: #1f1f23;
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    position: relative;
+}
+
+#notable .moment .clip img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+#notable .moment .clip h4{
+    background: #1f1f23be;
+    padding: 2.5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+#notable .moment h3{
+    padding-top: 10px;
+    font-weight: 500;
+
+}
+
+#notable .moment .clip:hover{
+    background:  #9146ff;
+}
+
+#notable .moment .clip:hover img{
+    transform: translate(10px, -10px);
+    cursor: pointer;
+}
+
+#notable .moment .clip:hover h4{
+    transform: translate(10px, -10px);
+}
