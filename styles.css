@@ -173,11 +173,6 @@ footer .column.links a{
 	color: #030d22;
 }
 
-footer .column.links a:hover{
-	text-decoration: none;
-	color: #1e9be0;
-}
-
 footer img{
 	width: 30px;
 	aspect-ratio: 1/1;
@@ -188,13 +183,15 @@ footer img{
 	vertical-align: middle;
 }
 
-footer img:hover{
+footer .column.links a:hover, footer img:hover {
 	filter: invert(46%) 
 			sepia(76%) 
 			saturate(750%) 
 			hue-rotate(163deg) 
 			brightness(98%) 
 			contrast(85%);
+	text-decoration: none;
+	color: #1e9be0;
 }
 
 footer .about p{
