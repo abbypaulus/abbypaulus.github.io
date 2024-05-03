@@ -92,10 +92,26 @@
     width: 100%;
     aspect-ratio: 2/1;
     object-fit: contain;
-    background-color: white;
     margin-top: 10px;
     border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 15px #ffffff15);
+    border: 2px solid #ffffff10;
 }
+
+/* .card img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png");
+    background-size: cover;
+    filter: blur(50px);
+    transform: scale(3);
+} */
 
 .card p, a{
     margin: 0px;
@@ -108,14 +124,6 @@
 
 #graphics img, #pcbf img{
     padding: 10px;
-}
-
-#pcbf img{
-    background: #1d1347;
-}
-
-#engineering img , #electric_abby img, #jptenggraphic img{
-    background: black;
 }
 
 .cards .h2Link h2:hover, .card h3:hover, .card a:hover{
