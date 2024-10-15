@@ -411,6 +411,63 @@ footer .bottom p{
 		width: 100%;
 		border: 10px solid red;
 	}
+
+	div.link{
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+		margin: auto;
+	}
+
+	#linkedinframe{
+		width: 65%;
+		margin: auto;
+	}
+
+	.resumeframe{
+		src: url(Resources/Paulus_Resume.pdf);
+		aspect-ratio: 16/9;
+		width: 50%;
+	}
+
+	#adobe-dc-view{
+		width: 90%;
+		aspect-ratio: 8.5/11;
+		margin: 15px auto;
+	}
+
+	#download{
+		width: 50%;
+		aspect-ratio: 3/1;
+		margin: 15px auto;
+		background: #1e9be0;
+		border-radius: 10px;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	#download img{
+		width: 50px;
+	}
+
+	#download a{
+		margin: auto;
+		text-decoration: none;
+	}
+
+	h3.contact-title{
+		width: 50%;
+		border: #1e9be0;
+		border-radius: 10px;
+		text-decoration: none;
+	}
+
+	p.contact-title{
+		width: 50%;
+		border: #1e9be0;
+		border-radius: 10px;
+	}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px){
