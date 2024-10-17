@@ -439,10 +439,18 @@ footer .bottom p{
 		flex-flow: row wrap;
 	}	
 
+	.link img{
+		width: 20%;
+		aspect-ratio: 1/1;
+		padding: 4% 0px;
+		padding-left: 5%;
+	}
+
 	.link a{
-		width: 100%;
+		width: 80%;
 		height: 100%;
-		padding-top: 6.5%;
+		padding-top: 6%;
+		padding-right: 20%;
 		margin: auto;
 		text-decoration: none;
 		text-align: center;
