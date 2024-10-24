@@ -412,7 +412,7 @@ footer .bottom p{
 		border: 10px solid red;
 	}
 
-	#linkedinframe{
+	/* #linkedinframe{
 		width: 65%;
 		margin: auto;
 	}
@@ -427,7 +427,7 @@ footer .bottom p{
 		width: 90%;
 		aspect-ratio: 8.5/11;
 		margin: 15px auto;
-	}
+	} */
 
 	.link{
 		width: 90%;
@@ -482,6 +482,46 @@ footer .bottom p{
 @media screen and (min-width: 1025px){
 	main{
 		margin: 0px 50px;
+	}
+	.link{
+		width: 45%;
+		aspect-ratio: 5/1;
+		margin: 15px auto;
+		background: #1e9be0;
+		border-radius: 10px;
+		display: flex;
+		flex-flow: row wrap;
+	}	
+
+	.link img{
+		width: 20%;
+		aspect-ratio: 1/1;
+		padding: 4% 0px;
+		padding-left: 5%;
+	}
+
+	.link a{
+		width: 80%;
+		height: 100%;
+		padding-top: 8%;
+		padding-right: 20%;
+		margin: auto;
+		text-decoration: none;
+		text-align: center;
+		font-size: 1.4rem;
+	}
+
+	h3.contact-title{
+		width: 50%;
+		border: #1e9be0;
+		border-radius: 10px;
+		text-decoration: none;
+	}
+
+	p.contact-title{
+		width: 50%;
+		border: #1e9be0;	
+		border-radius: 10px;
 	}
 
 }
