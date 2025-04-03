@@ -287,77 +287,77 @@ h2{
     visibility: hidden;
 }
 
-#engineering{
+#extra1{
     grid-area: box5;
     background: black;
     /* background-image: url(../image/about/group\eng.png); */
 }
 
-#wot{
+#extra2{
     grid-area: box3;
     background: #ecece5;
     /* background-image: url('../images\About\WOT.png'); */
     /* background-image: url('images/About/wot\ pic.JPG') ; */
 }
 
-#deca{
-    grid-area: box11;
-    background: white;
-    /* background-image: url('../images\About\DECA Logo Stack Blue.png'); */
+#extra3{
+    grid-area: box1;
+    background: #cceef5;
+    background-image: url(../image/about/);
 }
 
-#officers{
+#extra4{
     grid-area: box7;
     background: rgb(83, 0, 118);
     /* background-image: url(../image/about/); */
 }
 
-#guitar{
-    grid-area: box4;
-    background: rgb(199, 13, 13);
-    /* background-image: url('../images\About\guitar.png'); */
-}
-
-#bsu{
+#extra5{
     grid-area: box12;
     background: #e5c64c;
     background-image: url(../image/about/);
 }
 
-#csys{
+#extra6{
     grid-area: box2;
     background: #ff8701;
     background-image: url(../image/about/);
 }
 
-#ace{
+#extra7{
     grid-area: box8;
     background: #67b2c8;
     background-image: url(../image/about/);
 }
 
-#german{
-    grid-area: box1;
-    background: rgb(165, 158, 158);
-    background-image: url(../image/about/);
+#extra8{
+    grid-area: box4;
+    background: rgb(199, 13, 13);
+    /* background-image: url('../images\About\guitar.png'); */
 }
 
-#illuminating{
+#extra9{
     grid-area: box10;
-    background: black;
+    background: #73a8d4;
     background-image: url(../image/about/);
 }
 
-#csu{
+#extra10{
     grid-area: box9;
     background: #77b388;
     background-image: url(../image/about/);
 }
 
-#ultimate{
+#extra11{
     grid-area: box6;
     background: #2b4191;
     background-image: url(../image/about/);
+}
+
+#extra12{
+    grid-area: box11;
+    background: #539689;
+    /* background-image: url('../images\About\DECA Logo Stack Blue.png'); */
 }
 
 #interest{
