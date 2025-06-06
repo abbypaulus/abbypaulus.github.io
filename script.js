@@ -13,9 +13,7 @@ window.onload = function(){
     //tagline
     var textTagline = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
     document.getElementById("tagline").innerHTML = taglineText;
-    ('#footer').load('footer.html');
-    var footerText = "            
-    <div class="row primary">
+    var footerText = "<div class="row primary">
         <div class="column about">
             <h3>Abigail Paulus</h3><br>
             <p><span id="tagline"></span>I am currently a Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.</p>
