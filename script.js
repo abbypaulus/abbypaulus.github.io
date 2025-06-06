@@ -14,3 +14,7 @@ content:   {location: {url: "https://abbypaulus.github.io/Resources/Paulus_Resum
 metaData: {fileName: "Paulus_Resume.pdf"}
 });
 });
+
+//Get current date
+var year = new Date().getFullYear();
+document.getElementById("currentYear").innerHTML = year;
