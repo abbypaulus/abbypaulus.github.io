@@ -16,5 +16,7 @@ metaData: {fileName: "Paulus_Resume.pdf"}
 });
 
 //Get current date
-var year = new Date().getFullYear();
-document.getElementById("currentYear").innerHTML = year;
+window.onload = function(){
+    var year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = year;
+}
