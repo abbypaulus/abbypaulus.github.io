@@ -12,6 +12,6 @@ window.onload = function(){
     document.getElementById("currentYear").innerHTML = year;
     ('#footer').load('footer.html') 
 //tagline
-document.getElementById("tagline").innerHTML = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer."
+    document.getElementById("tagline").innerHTML = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
 }
 
