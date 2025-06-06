@@ -11,6 +11,6 @@ window.onload = function(){
     //Get current date
     document.getElementById("currentYear").innerHTML = year;
     //tagline
-    document.getElementById("tagline").innerHTML = taglineText;
+    document.getElementById("tagline").innerHTML = textTagline;
     document.getElementByTagName("footer").innerHTML = footerText;
 };
