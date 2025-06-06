@@ -6,12 +6,12 @@ for(let i = 0; i < 15; i++){
 }
 
 
-//Get current date
 window.onload = function(){
+    //Get current date
     var year = new Date().getFullYear();
     document.getElementById("currentYear").innerHTML = year;
+    //tagline
+    var taglineText = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer."
+    document.getElementById("tagline").innerHTML = taglineText;
     ('#footer').load('footer.html');
-//tagline
-    document.getElementById("tagline").innerHTML = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
 }
-
