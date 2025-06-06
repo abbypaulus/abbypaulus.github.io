@@ -4,6 +4,8 @@ for(let i = 0; i < 15; i++){
     //document.getElementById('typeEffect').innerHTML = abigail_paulus;
 };
 
+
+window.onload = function(){
     var year = new Date().getFullYear();
     var textTagline = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
     var footerText = "blah";
@@ -12,6 +14,4 @@ for(let i = 0; i < 15; i++){
     //tagline
     document.getElementById("tagline").innerHTML = taglineText;
     document.getElementByTagName("footer").innerHTML = footerText;
-
-// window.onload = function(){
-// };
+};
