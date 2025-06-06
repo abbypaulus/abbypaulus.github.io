@@ -5,17 +5,19 @@ for(let i = 0; i < 15; i++){
     //document.getElementById('typeEffect').innerHTML = abigail_paulus;
 };
 
+
 window.onload = function(){
     //Get current date
-    const year = document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-    const taglineText = document.getElementById("tagline").innerHTML = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
-    // ('#footer').load('footer.html');
-    //footer
-    const footer = getElementByTagName("footer").innerHTML = "    
-    <div class="row primary">
+    var year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = year;
+    //tagline
+    var textTagline = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
+    document.getElementById("tagline").innerHTML = taglineText;
+    ('#footer').load('footer.html');
+    const list = document.getElementByTagName("footer").innerHTML = "            <div class="row primary">
         <div class="column about">
             <h3>Abigail Paulus</h3><br>
-            <p>I am currently a Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.</p>
+            <p><span id="tagline"></span>I am currently a Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.</p>
         </div>
         <div class="column links">
             <h3>Additional Resources</h3>
@@ -59,6 +61,7 @@ window.onload = function(){
             </ul>
         </div>
         <p>Copyright &copy;<span id="currentYear"></span> Abigail Paulus</p>
+    </div>
     </div>
 "
 };
