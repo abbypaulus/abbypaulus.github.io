@@ -7,12 +7,58 @@ for(let i = 0; i < 15; i++){
 
 window.onload = function(){
     //Get current date
-    // var year = new Date().getFullYear();
     const year = document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-    //tagline
-    // var taglineText = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
-    // document.getElementById("tagline").innerHTML = taglineText;
+    const taglineText = document.getElementById("tagline").innerHTML = "I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
     // ('#footer').load('footer.html');
-    const taglineText = document.getElementById("tagline").innerHTML = " test I am currently an Engineering Intern at Dometic, Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.";
-
+    //footer
+    const footer = getElementByTagName("footer").innerHTML = "    
+    <div class="row primary">
+        <div class="column about">
+            <h3>Abigail Paulus</h3><br>
+            <p>I am currently a Programing Teacher at Code/Art, Student at Florida Atlantic University and Atlantic Technical College. Ambitious, detail-oriented mechanical engineering student focused on drafting, aspiring to be a design engineer.</p>
+        </div>
+        <div class="column links">
+            <h3>Additional Resources</h3>
+            <ul>
+                <li><a href="attributes.html">Attributes</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>                    
+            </ul>
+        </div>
+        <div class="column links">
+            <h3>Links</h3>
+            <div id="social">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/abbypaulus/" target="_blank" title="LinkedIn"><img src="images/footer/LinkedIn.svg" alt="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://github.com/abbypaulus" target="_blank" title="GitHub"><img src="images/footer/github.svg" alt="GitHub">GitHub</a></li>
+                <li><a href="https://stackoverflow.com/users/16097412/abbypaulus" target="_blank" title="Stack Overflow"><img src="images/footer/StackOverflow.svg" alt="Stack Overflow">Stack Overflow</a></li>
+                <li><a href="https://www.instagram.com/abigail.paulus06" target="_blank" title="Instagram"><img src="images/footer/instagram.svg" alt="Instagram">Instagram</a></li>
+                <li><a href="Resources/Paulus_Resume.pdf" target="_blank" title="Resume"><img src="images/footer/resume.svg" alt="Resume">Resume</a></li>
+                <li><a href="mailto:abbypaulus@icloud.com" title="Email Me"><img src="images/footer/email.svg" alt="Email">Email</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="column contact">
+            <h3>Contact Me</h3>
+            <form>
+                <input id="fn" placeholder="*First Name" autocomplete="given-name" required><br>
+                <input id="ln" placeholder="*Last Name" autocomplete="family-name" required><br>
+                <input id="email" type="email"  placeholder="*example@email.com" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" autocomplete="email" required><br>
+                <textarea id="textBox" placeholder='Your Message' rows="5" required></textarea><br>
+                <input id="submit" type="submit"><br>
+            </form>
+        </div>
+    </div>
+    <div class="row bottom">
+        <div id="footMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <p>Copyright &copy;<span id="currentYear"></span> Abigail Paulus</p>
+    </div>
+"
 };
